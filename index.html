@@ -1,169 +1,58 @@
 <!DOCTYPE html>
 <html lang="vi">
-	<head>
-		<title>GTFO my web, b*tch</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="image" content="https://raw.githubusercontent.com/BackNNHH/tfg/main/Changelogs/empty.png" />
-		<meta name="description" content="A trash web!" />
-		<link rel="stylesheet" href="trash.css">
-		<style>
-			img {
-				width: 100px;
-				height: 100px;
-			}
-			img.icon {
-				width: 20px;
-				height: 20px;
-			}
-			img.titlelg {
-				width: 25%;
-				height: 60%;
-			}
-			.btl {
-				border-style: outset;
-				border-width: 5px;
-				border-color: aqua;
-				border-radius: 10px;
-				padding: 5px;
 
-				background: linear-gradient(#7cf6ff,#0699a3);
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size:cover;
-			}
-		</style>
-		<div class="headerUP">
-			<p>tao! bị Phản ứng</p>
-			<!-- <img class="titlelg" src="ui/CTMB_title.png" alt="LOGO"> -->
-		</div>
-	</head>
-	<hr />
-	<body>
+<head>
+	<title>BackNNHH</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="A trash web!" />
+	<link rel="icon" type="image/png" href="assets/icon.png" />
+	<link rel="stylesheet" href="styles.css" />
+	<div class="headerUP"></div>
+	<style>
+		@keyframes cbl{0%{background-position:0 0;}100%{background-position:1280px -720px;}}
+    @keyframes tbl{0%{background-position:0 0;}100%{background-position:-64px 64px;}}
+		
+    h1 {
+			text-align:center;
+      position:absolute;
+			font-family:Mojangles;
+      top:30%;
+      /* font-size:100%; */
+      color:white;
+    }
+    .bgtitle::before{position:absolute;top:0;left:0;z-index:-2;animation:cbl 6s linear infinite;background-image:url(assets/imgs/rbg.png);background-size:1280px 720px;width:100%;height:100%;pointer-events:none;content:"";}
+    img.bg{position:fixed;top:0;left:0;z-index:-3;width:100%;height:100%;object-fit:cover;}
+    img.null{position:absolute;height:100%;}
+    img.tbg{position:absolute;top:0;left:0;z-index:-3;animation:tbl 6s linear infinite;image-rendering:pixelated;background-image:url(assets/imgs/bookshelf_0.png);background-size:64px 64px;width:100%;height:100%;pointer-events:none;}
+    nav {display:flex;gap:15px;padding-right:20px;}
+    .rgb-button{display:inline-block;position:absolute;bottom:10px;right:30px;width:20px;height:20px;cursor:pointer;}
+    .rgb-button.amin{right:55px;}
+    .toggle-button{position:absolute;bottom:10px;right:10px;padding:8px 8px;border:1px solid #ccc;border-radius:5px;cursor:pointer;}
 
-		<img src="images/puct.gif" alt="phancc" />
-		<p>Phản ứng của tao!</p>
+	</style>
+</head>
 
-		<div id="box1"></div>
-
-		<a href="custom/info.txt" target="_blank" title="LMAO">
-			<img class="icon" src="ui/BA.chr.png" alt="INFO" />
-			<strong>INFO</strong>
-		</a>
-
-		<br />
-
-		<a href="custom/roll.html" target="_blank">
-			<p class="minecraft"style="color: blue">Got Rick <span style="color: blue">Roll</span></p>
-		</a>
-
-		<br />
-		<!-- <a href="custom/s.html" title="LMAO">
-			<p class="minecraft"style="color:white">Lmao</p>
-		</a> -->
-		<a href="index2.html" title="LMAO">
-			<p class="minecraft"style="color:white">Lmao</p>
-		</a>
-
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptatibus esse excepturi eum animi veritatis vero, in ipsa nihil obcaecati ipsum omnis, porro dolores atque rem! Id eum explicabo assumenda.</p>
-
-		<p>
-			<mark>VOV</mark>
-			<audio controls src="music/vov.ogg"></audio>
-		</p>
-
-		<img src="images/Sensei.jpg" height="10px" width="10px" alt="Sensei" />
-		<img src="images/jc.jpg" height="10px" width="10px" alt="Sensei" />
-
-		<br />
-
-		<button style="background-color: green">
-			<a href="custom/CV.html" class="minecraft" style="color: #ffffff;">import CV</a>
-		</button>
-
-
-		<button class="gay" onclick="fuck()">
-			FIRE in the hole
-		</button>
-
-		<script>
-			function fuck() {}
-		</script>
-
-		<br>
-		<a href="custom/LMAOwki.html">SUPER GAY</a>
-		<a href="custom/mc.html">MCTEST</a>
-		<br />
-
-		<table bgcolor="#e600ff">
-			<tr bgcolor="#f383ff">
-				<th>id</th>
-				<th>LMAO</th>
-				<th>bủh</th>
-			</tr>
-			<tr bgcolor="#f6a7ff">
-				<td>69</td>
-				<td>true</td>
-				<td>false</td>
-			</tr>
-		</table>
-
-		<dl>
-			<dt>FIRE in the hole</dt>
-			<dd></dd>
-		</dl>
-	</body>
+<body>
+	<div style="background-color:black;width:100vw;height:100vh;display:flex;justify-content:center;">
+		<img src="assets/imgs/ShinjiChair.jpg" alt="BG" class="null" />
+		<h1>nothing here...</h1>
+	</div>
+	<div class="bgtitle"></div>
+  <img src="assets/imgs/x-n_cg1_bg.png" alt="BG" class="bg bg-hidden" />
+  <img src="#" alt="" class="tbg" />
+	<!-- <video id="bgVideo"playsinline=""muted="muted"loop="loop"autoplay="autoplay"><source src="https://nxm-clw-cdn.dn.nexoncdn.co.kr/bluearchive/img/events/2024/04/live_1dk292g/bg_video_jp.mp4"type="video/mp4"/></video> -->
+	<nav>
+    <img src="assets/imgs/RGB.png" alt="" title="RGB bg" class="rgb-button" onclick="RGBbg()"></img>
+    <button class="toggle-button" onclick="toggleBackground()"></button>
+    <img src="assets/imgs/bookshelf_0.png" class="rgb-button amin" title="Amin" onclick="Aminbg()"></img>
+  </nav>
+	
+  <script src="scripts.js"></script>
+  <script>
+		function Aminbg(){document.querySelector(".tbg").classList.toggle("paused");}
+		function RGBbg(){document.querySelector(".bgtitle").classList.toggle("bg-hidden");}
+		console.log("You again, why you dont use app SG69. Here we have single ...")
+	</script>
+</body>
 </html>
-<!-- ul <li> ol -->
