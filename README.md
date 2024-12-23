@@ -8,4 +8,18 @@
 
 - Font (Mojangles)
 - TitleRender
-- CustomMapBE SD (block texture+ RTX)
+- CustomMapBE SD
+
+## Blue Archive
+
+- Chr
+- Event item
+- Emoji
+
+## :trollface:
+
+## OTHER
+
+- meme(internet)
+- BS: Sushi \*\*\*\*\*\* \*\*\*\*
+- IDV: Netease
