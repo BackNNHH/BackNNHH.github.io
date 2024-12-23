@@ -36,17 +36,23 @@
 	<img src="#" alt="" class="tbg" />
 	<!-- <video id="bgVideo"playsinline=""muted="muted"loop="loop"autoplay="autoplay"><source src="https://nxm-clw-cdn.dn.nexoncdn.co.kr/bluearchive/img/events/2024/04/live_1dk292g/bg_video_jp.mp4"type="video/mp4"/></video> -->
 	<nav>
-		<img src="assets/imgs/RGB.png" alt="" title="RGB bg" class="rgb-button" onclick="RGBbg()"></img>
+		<img src="assets/imgs/RGB.png" alt="" title="RGB bg" class="rgb-button" onclick="RGBbg()">
 		<button class="toggle-button" onclick="toggleBackground()"></button>
-		<img src="assets/imgs/bookshelf_0.png" class="rgb-button amin" title="Amin" onclick="Aminbg()"></img>
+		<img src="assets/imgs/bookshelf_0.png" class="rgb-button amin" title="Amin" onclick="Aminbg()">
 	</nav>
-	<audio id="NA" autoplay loop><source src="assets/audios/NameAlice.mp3"></audio>
+	<audio id="NA" controls loop muted><source src="assets/audios/NameAlice.mp3"></audio>
 	
 	<script src="scripts.js"></script>
 	<script>
+    var audio = document.getElementById('NA');
+		audio.volume = .5;
 		function Aminbg(){document.querySelector(".tbg").classList.toggle("paused");}
 		function RGBbg(){document.querySelector(".bgtitle").classList.toggle("bg-hidden");}
 		document.body.addEventListener('click',function(){var audio=document.getElementById('NA');if(audio.paused)audio.play();});
+		console.log("You again, why you dont use app SG69. Here we have single ...")
+		window.addEventListener('load', function() {
+    	audio.play();
+  	});
 	</script>
 </body>
 </html>
