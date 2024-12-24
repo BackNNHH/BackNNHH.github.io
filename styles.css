@@ -80,6 +80,7 @@ button:hover {
 .content {
   display: flex;
   margin-top: 2rem;
+  height: 100%-2rem;
   flex-direction: column;
 }
 .bg-hidden {
