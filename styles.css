@@ -65,7 +65,7 @@ button:hover {
   font-size: 0.8rem;
   font-family: mojangles;
   letter-spacing: 0.1rem;
-  transition: all .5s  ease;
+  transition: all 0.5s ease;
 }
 .header ul .title:hover {
   font-weight: bold;
@@ -76,6 +76,11 @@ button:hover {
   text-decoration-line: underline;
   font-weight: bold;
   color: goldenrod;
+}
+.content {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
 }
 .bg-hidden {
   display: none;
