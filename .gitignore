@@ -4,4 +4,4 @@ html/test.html
 test.html
 node_modules/
 package-lock.json
-my-spa-app/
+vue/
