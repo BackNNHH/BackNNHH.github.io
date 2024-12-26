@@ -6,7 +6,18 @@
 
 ## Minecraft
 
+## Terraria
+
+- Fargo's Souls
+- Calamity
+
 ## Blue Archive
+
+## Omori
+
+## Hello Neighbor
+
+## GI
 
 ## :trollface:
 
@@ -19,3 +30,4 @@
 ## OTHER
 
 - meme(internet)
+- anime
