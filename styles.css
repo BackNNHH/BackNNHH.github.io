@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  color: white;
   background-color: black;
 }
 
@@ -26,62 +27,19 @@ button:hover {
   background-color: #218838;
 }
 
-.header {
-  background-image: linear-gradient(120deg, #1a9bd4, #03df50);
-  background-color: #0d9cfd;
-  box-shadow: 0 1px 10px rgba(13 156 253);
-  backdrop-filter: blur(10px);
-  top: 0;
-  /* color: white; */
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  z-index: 69;
-}
-
-.header .hc {
-  position: relative;
+.main-conta {
+  margin-top: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 2rem;
-}
-
-.header .logo {
-  margin-top: 0.2rem;
-  margin-left: 2rem;
-  width: 6rem;
-  /* height: 1.8666666667rem; */
-}
-.header ul {
-  list-style: none;
-  display: flex;
-}
-.header ul .title {
-  box-sizing: border-box;
-  padding: 0 1rem;
-  cursor: pointer;
-  color: #fff;
-  font-size: 0.8rem;
-  font-family: mojangles;
-  letter-spacing: 0.1rem;
-  transition: all 0.5s ease;
-}
-.header ul .title:hover {
-  font-weight: bold;
-  color: magenta;
-}
-.header ul .title.blyat {
-  font-size: 0.9rem;
-  text-decoration-line: underline;
-  font-weight: bold;
-  color: goldenrod;
 }
 .content {
   display: flex;
-  margin-top: 2rem;
-  height: 100%-2rem;
-  flex-direction: column;
+  /* margin-top: 40px; */
+  height: 100%;
+  max-width: 100vw;
+  /* flex-direction: column; */
+  justify-content: center;
 }
 .bg-hidden {
   display: none;
@@ -92,7 +50,7 @@ button:hover {
 #bgVideo {
   transform: translateX(-50%) translateY(-50%);
   filter: blur(10px);
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
