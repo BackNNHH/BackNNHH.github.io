@@ -1,7 +1,4 @@
 .vscode/
 .CACHE/
-html/test.html
 test.html
-node_modules/
-package-lock.json
 vue/

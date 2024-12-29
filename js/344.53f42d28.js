@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkmy_spa_app"]=self["webpackChunkmy_spa_app"]||[]).push([[344],{1344:function(n,a,u){u.r(a),u.d(a,{default:function(){return i}});var t=u(6768);const c={class:"main-conta"};function e(n,a,u,e,r,s){return(0,t.uX)(),(0,t.CE)("div",c,a[0]||(a[0]=[(0,t.Lk)("h1",null,"BackNNHH",-1),(0,t.Lk)("p",null,"Là ĐạiPH, nó có nghĩa là gì?, ai mà biết ¯\\_(ツ)_/¯",-1)]))}var r={name:"About"},s=u(1241);const p=(0,s.A)(r,[["render",e]]);var i=p}}]);
-//# sourceMappingURL=344.53f42d28.js.map

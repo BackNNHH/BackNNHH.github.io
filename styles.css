@@ -5,6 +5,10 @@ body {
   min-height: 100vh;
   color: white;
   background-color: black;
+  background-image: url(img/map.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 button {
