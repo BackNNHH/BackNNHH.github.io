@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkuranium"]=self["webpackChunkuranium"]||[]).push([[641],{5641:function(n,u,t){t.r(u),t.d(u,{default:function(){return l}});var a=t(6768);const r={class:"main-conta"};function e(n,u,t,e,c,s){return(0,a.uX)(),(0,a.CE)("div",r,u[0]||(u[0]=[(0,a.Lk)("h1",null,"ABOUT",-1),(0,a.Lk)("p",null,"từ từ update sau...",-1)]))}var c={name:"About"},s=t(1241);const i=(0,s.A)(c,[["render",e]]);var l=i}}]);
-//# sourceMappingURL=641.37e287e5.js.map
