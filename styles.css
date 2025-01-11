@@ -66,3 +66,9 @@ button:hover {
   -o-object-fit: cover;
   object-fit: cover;
 }
+@font-face {
+  font-family: 'Mojangles';
+  src: url('/fonts/Mojangles.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
