@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkuranium"]=self["webpackChunkuranium"]||[]).push([[562],{4626:function(n,e,a){a.r(e),a.d(e,{default:function(){return c}});var u=a(6768),r=a.p+"media/banner.4fbb2792.mp4";const t={loop:"",autoplay:"",src:r,style:{position:"fixed","padding-top":"20px"}};function o(n,e,a,r,o,i){return(0,u.uX)(),(0,u.CE)("video",t,"lmao")}var i={name:"SayGex"},p=a(1241);const s=(0,p.A)(i,[["render",o]]);var c=s}}]);
-//# sourceMappingURL=562.ead557c5.js.map
