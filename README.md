@@ -1,33 +1,34 @@
-# nothing here
+# BackNNHH.github.io
+This is my first website (maybe). I put quite a bit of myself into it, but it's still bullshit and stupid...
 
-![icon](assets/imgs/63.png)
 
-# Source/Idea/Resources Creator
+![icon](TFGAC.png)
 
-## Minecraft
+## Source/Idea/Resources Creator(Not updated enough!)
 
-## Terraria
+- Minecraft
 
-- Fargo's Souls
-- Calamity
+- Terraria
 
-## Blue Archive
+  - Fargo's Souls
+  - Calamity
 
-## Omori
+- Blue Archive
 
-## Hello Neighbor
+- Omori
 
-## GI
+- Hello Neighbor
 
-## :trollface:
+- GI
 
-## BS: Sushi \*\*\*\*\*\* \*\*\*\*
+- :trollface:
 
-## sayGeg'W: 'NiceCrow'
+- BS: Sushi \*\*\*\*\*\* \*\*\*\*
 
-## IDV: Netease
+- sayGeg'W: 'NiceCrow'
 
-## OTHER
+- IDV: Netease
 
-- meme(internet)
-- anime
+- OTHER
+  - meme(internet)
+  - anime

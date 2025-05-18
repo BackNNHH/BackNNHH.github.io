@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkuranium"]=self["webpackChunkuranium"]||[]).push([[900],{2900:function(n,u,a){a.r(u),a.d(u,{default:function(){return f}});var t=a(6768);const e={class:"main-conta"};function r(n,u,a,r,s,c){return(0,t.uX)(),(0,t.CE)("div",e,u[0]||(u[0]=[(0,t.Lk)("h1",null,"ABOUT",-1),(0,t.Lk)("p",null,"từ từ update sau...",-1),(0,t.Lk)("div",{class:"bg"},null,-1)]))}var s={name:"About"},c=a(1241);const l=(0,c.A)(s,[["render",r],["__scopeId","data-v-846fbff4"]]);var f=l}}]);
-//# sourceMappingURL=900.569d0db9.js.map
