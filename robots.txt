@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /Ibuki
+Sitemap: https://backnnhh.github.io/sitemap.xml
