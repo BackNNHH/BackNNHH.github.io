@@ -4,7 +4,9 @@ This is my first website (maybe). I put quite a bit of myself into it, but it's 
 
 ![icon](TFGAC.png)
 
-## Tech
+<!-- - DLC 📦 Minecraft: Terraria, Hello Neighbor, <del>Outlast,</del> Omori, P5, IdV, Mindustry, DBDl, BA, GI, WW, CFB, LC, PC:RD, HGIM v.v.. -->
+
+## 🛠️ Tech
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![](https://img.shields.io/badge/rpy-%23FF7F7F.svg?style=for-the-badge&logo=renpy&logoColor=%23FF7F7F) ![vite](https://img.shields.io/badge/vite-%2320232a.svg?style=for-the-badge&logo=vite&logoColor=%239135FF) ![](https://img.shields.io/badge/three-%2320232a.svg?style=for-the-badge&logo=threedotjs&logoColor=white) ![prettier](https://img.shields.io/badge/prettier-%2320232a.svg?style=for-the-badge&logo=prettier&logoColor=%23F7B93E)
 
@@ -24,4 +26,9 @@ This project is the culmination of inspiration and resources from many different
 | Miscellaneous  | anime(idkMan), Community Assets, and other inspirations                                                                                 |
 | DLC 📦         | Minecraft Terraria, Hello Neighbor, <del>Outlast,</del> Omori, P5, IdV, Mindustry, DBDl, BA, GI, WW, CFB, LC, PC:RD, HGIM v.v..         |
 
-- Last edit: 10/05/2026.
+- Last edit: 15/05/2026.
+- Not thanks: self (<del>just kidding, maybe</del>)
+
+##
+
+©2024-2026, [BackNNHH](https://github.com/BackNNHH).
