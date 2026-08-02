@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /Ibuki
+Disallow: /assets/*
+Disallow: /terminal
+
+Sitemap: https://backnnhh.github.io/sitemap.xml

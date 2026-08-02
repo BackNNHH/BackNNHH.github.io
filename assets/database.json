@@ -1,0 +1,69 @@
+[
+  {
+    "id": 0,
+    "name": "T.F.G",
+    "ava": "",
+    "imageUrl": "img/chr/TFG.png",
+    "info": "This is a null chr"
+  },
+  {
+    "id": 1,
+    "name": "Steve",
+    "imageUrl": "img/chr/steve.jpg",
+    "info": "This is a STRONG chr"
+  },
+  {
+    "id": 2,
+    "name": "Karyn",
+    "imageUrl": "img/chr/Karyn.jpg",
+    "info": "This is a seggs chr"
+  },
+  {
+    "id": 3,
+    "name": "BackNNHH trollface",
+    "imageUrl": "img/chr/BackNNHHtrollface.png",
+    "info": "This is a stupid chr"
+  },
+  {
+    "id": 4,
+    "name": "Mutant (???)",
+    "imageUrl": "img/chr/Mutant_(boss).gif",
+    "info": "This is a boss chr"
+  },
+  {
+    "id": 5,
+    "name": "PowerPoint",
+    "imageUrl": "img/chr/powerp.png",
+    "info": "This is a chr"
+  },
+  {
+    "id": 6,
+    "name": "MR.White",
+    "imageUrl": "img/chr/mrwhite.jpg",
+    "info": "This is a cooking chr"
+  },
+  {
+    "id": 7,
+    "name": "Character 7",
+    "imageUrl": "https://placekitten.com/206/206",
+    "info": "This is a chr"
+  },
+  {
+    "id": 8,
+    "name": "Character 8",
+    "imageUrl": "https://placekitten.com/207/207",
+    "info": "This is a chr"
+  },
+  {
+    "id": 9,
+    "name": "Character 9",
+    "imageUrl": "https://placekitten.com/208/208",
+    "info": "This is a chr"
+  },
+  {
+    "id": 10,
+    "name": "Character 10",
+    "imageUrl": "https://placekitten.com/209/209",
+    "info": "This is a chr"
+  }
+]

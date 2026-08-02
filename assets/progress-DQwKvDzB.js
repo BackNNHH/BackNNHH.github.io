@@ -1,0 +1,1 @@
+import{t as e}from"./Maintenance-1d7UVaZw.js";function t(){return e({title:`Progress`,sub:`Từ từ nào anh bạn!`})}export{t as default};

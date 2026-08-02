@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="Layout.css" /> -->
+        <title>HTML5 Layout</title>
+        <style>
+            body,
+            section,
+            footer,
+            aside,
+            nav,
+            article,
+            figure,
+            figcaption {
+                display: block;
+            }
+
+            body {
+                color: #666;
+                background-color: #f4f4f4;
+                background-image: url(https://static.wikitide.net/bluearchivewiki/3/39/Fp-background.jpg);
+                background-position: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                line-height: 1.4rem;
+                margin: 0;
+            }
+
+            .wrapper {
+                width: 940px;
+                margin: 20px auto 20px auto;
+                background-color: #fff;
+                border: 2px solid #000;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            header {
+                height: 160px;
+                background-image: url(https://static.wikitide.net/bluearchivewiki/thumb/7/7a/Event_832_Promo_Image_JP.png/300px-Event_832_Promo_Image_JP.png);
+            }
+
+            h1 {
+                text-indent: -9999px;
+                width: 940px;
+                height: 130px;
+                margin: 0;
+            }
+
+            nav,
+            footer {
+                clear: both;
+                color: #fff;
+                background-color: #001172;
+            }
+
+            nav ul {
+                margin: 0;
+                padding: 5px 0 5px 30px;
+            }
+
+            nav li {
+                display: inline;
+                margin-right: 40px;
+            }
+
+            nav li a {
+                color: #fff;
+            }
+
+            nav li a:hover,
+            nav li a.current {
+                color: #4671ff;
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+
+            section.course {
+                float: left;
+                /* overflow: auto; */
+                width: 659px;
+                border-right: 1px solid #fff;
+            }
+
+            article {
+                clear: both;
+                overflow: auto;
+                width: 100%;
+            }
+
+            hgroup {
+                margin-top: 40px;
+            }
+
+            figure {
+                float: left;
+                width: 220px;
+                height: 220px;
+                padding: 5px;
+                margin: 20px;
+                border: 1px solid #eee;
+            }
+
+            figure img {
+                width: 220px;
+                height: 220px;
+            }
+
+            figcaption {
+                font-size: 90%;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            aside {
+                width: 230px;
+                float: left;
+                padding: 0 0 0 20px;
+            }
+
+            aside section a {
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #fff;
+            }
+
+            aside section a:hover {
+                background-color: #985d6a;
+                background-color: #efefef;
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-weight: normal;
+            }
+
+            h2 {
+                margin: 10px 0 5px 0;
+                padding: 0;
+            }
+
+            h3 {
+                margin: 0 0 10px 0;
+                padding: 0;
+                color: #de6581;
+            }
+
+            aside h2 {
+                padding: 30px 0 10px 0;
+                color: #ff003c;
+            }
+
+            footer {
+                font-size: 80%;
+                padding: 7px 0 0 20px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="warpper">
+            <header>
+                <h1>Cooking</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="current">Trang Chủ</a></li>
+                        <li><a href="#">Công Thức</a></li>
+                        <li><a href="#">Nguyên Liệu</a></li>
+                        <li><a href="#">Mẹo Nấu Ăn</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="course">
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="https://static.wikitide.net/bluearchivewiki/thumb/4/4f/Img_FortuneGacha_Curry_Luck0.png/180px-Img_FortuneGacha_Curry_Luck0.png" alt="" />
+                            <figcaption>Suspicious Curry</figcaption>
+                        </figure>
+                        <hgroup>
+                            <h2>Chance 12%</h2>
+                            <h3>600kCredits</h3>
+                        </hgroup>
+                        <p>
+                            This strange curry is a very suspicious color. Its chemical-like smell stings the nose. Even the rice it is served with is burnt and bitter.
+                            <br />
+                            Total Grade 0 probability: 12%
+                            <br />
+                            Pity modifier after 5 rolls: -1.2%, towards 0% probability
+                        </p>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="https://static.wikitide.net/bluearchivewiki/thumb/c/c0/Img_FortuneGacha_Curry_Luck1.png/180px-Img_FortuneGacha_Curry_Luck1.png" alt="" />
+                            <figcaption>Fish Head Curry</figcaption>
+                        </figure>
+                        <hgroup>
+                            <h2>Chance 14%</h2>
+                            <h3>400kCredits</h3>
+                        </hgroup>
+                        <p>
+                            This strange curry is a very suspicious color. Its chemical-like smell stings the nose. Even the rice it is served with is burnt and bitter.
+                            <br />
+                            Total Grade 1 probability: 28%
+                            <br />
+                            Pity modifier after 5 rolls: -2.8%, towards 0% probability
+                        </p>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="https://static.wikitide.net/bluearchivewiki/thumb/4/43/Img_FortuneGacha_Curry_Luck2.png/180px-Img_FortuneGacha_Curry_Luck2.png" alt="" />
+                            <figcaption>Simple Veggie Curry</figcaption>
+                        </figure>
+                        <hgroup>
+                            <h2>Chance 17.5%</h2>
+                            <h3>400kCredits</h3>
+                        </hgroup>
+                        <p>
+                            A simple curry made with pumpkin, potatoes, and carrots. It's nothing special, but the sweetness of the vegetables goes well with the curry. The white rice it's served with
+                            is well-cooked.
+                            <br />
+                            Total Grade 2 probability: 35%
+                            <br />
+                            Pity modifier after 5 rolls: -3.5%, towards 0% probability
+                        </p>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="https://static.wikitide.net/bluearchivewiki/thumb/f/fa/Img_FortuneGacha_Curry_Luck3.png/180px-Img_FortuneGacha_Curry_Luck3.png" alt="" />
+                            <figcaption>Creamy Shrimp Curry</figcaption>
+                        </figure>
+                        <hgroup>
+                            <h2>Chance 10%</h2>
+                            <h3>200kCredits</h3>
+                        </hgroup>
+                        <p>
+                            Delicious curry topped with large shrimp. The light taste of shrimp blends smoothly with the creamy sauce. The spices balance the heaviness perfectly.
+                            <br />
+                            Total Grade 3 probability: 20%
+                            <br />
+                            Pity modifier after 5 rolls: -2%, towards 0% probability
+                        </p>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="https://static.wikitide.net/bluearchivewiki/thumb/f/fa/Img_FortuneGacha_Curry_Luck3.png/180px-Img_FortuneGacha_Curry_Luck3.png" alt="" />
+                            <figcaption>Sirloin Steak Curry</figcaption>
+                        </figure>
+                        <hgroup>
+                            <h2>Chance 1.25%</h2>
+                            <h3>200kCredits</h3>
+                        </hgroup>
+                        <p>
+                            A sumptuous curry with top-quality sirloin steak over rice. The texture of the grilled mushrooms and green onions adds variety to the dish. The garlic rice stir-fried with
+                            butter is its own delicacy in itself.
+                            <br />
+                            Total Grade 4 probability: 5%
+                            <br />
+                            Pity modifier after 5 rolls: 9.5%, towards 100% probability
+                        </p>
+                    </article>
+                </a>
+            </section>
+            <aside>
+                <section class="popular">
+                    <h2>Món Ăn Ngon</h2>
+                    <a>Bún Chả Hà Nội</a>
+                    <a>Phở Bò</a>
+                    <a>Gỏi Cuốn</a>
+                    <a>Cơm Tấm</a>
+                    <a>Bánh Mì</a>
+                    <a>Chả Cá Lã Vọng</a>
+                    <a>Bánh Xèo</a>
+                    <a>Hủ Tiếu</a>
+                    <a>Bánh Cuốn</a>
+                    <a>Chè Ba Màu</a>
+                </section>
+                <section class="contact">
+                    <h2>Liên Hệ</h2>
+                    <p>Email: **************</p>
+                    <p>Điện Thoại: **************</p>
+                </section>
+            </aside>
+            <footer>&copy; 2024 BA. All rights reserved.</footer>
+        </div>
+    </body>
+</html>

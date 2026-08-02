@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cx0BB4qO.js";var t=e();function n({title:e,sub:n=`từ từ update sau...`,children:r}){return(0,t.jsxs)(`div`,{className:`main-conta`,children:[(0,t.jsx)(`h1`,{children:e}),(0,t.jsx)(`p`,{children:n}),(0,t.jsx)(`div`,{children:r}),(0,t.jsx)(`div`,{className:`NoThing`})]})}export{n as t};
